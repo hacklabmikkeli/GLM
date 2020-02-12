@@ -1,0 +1,6 @@
+Jos olet contribuoinut pelinkehitykseen lataamalla oman teoksen muidenkin käyttöön, niin merkkaa tähän tiedostoon itsesi muodossa:
+
+tiedoston_nimi.pääte - Tekijän Nimi, sähköposti@joshaluat.fi
+
+Tämän avulla muiden pelinkehittäjien helpompi verkostoitua kanssasi ja pyytää esimerkiksi sinua mukaan peliprojekteihin, jos pitävät tyylistäsi :)
+------------------------------------------------------------------------
