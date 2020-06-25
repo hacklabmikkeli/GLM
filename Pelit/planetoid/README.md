@@ -1,2 +1,0 @@
-# Planetoid
-Planetoid git repo
