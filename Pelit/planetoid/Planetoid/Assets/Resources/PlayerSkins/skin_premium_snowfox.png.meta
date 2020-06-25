@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: df7cbc326a1d9a640aa5bca53423f091
+timeCreated: 1450260233
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Body
+    21300004: RArm
+    21300006: RShoulder
+    21300008: LArm
+    21300010: LShoulder
+    21300012: LLeg
+    21300014: RLeg
+    21300016: antenna_bottom
+    21300018: backpack
+    21300020: antenna_top
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: .566428602, y: .398775458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: .489072472, y: .374474496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: .0988005251, y: .8117612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: .882664979, y: .661380589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: .771972001, y: .907958031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 23
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: .0835434571, y: .479602426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LLeg
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 14
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: .330119759, y: .855822146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RLeg
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 4
+        height: 7
+      alignment: 9
+      pivot: {x: .451309204, y: .863458335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_bottom
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: .673143685, y: .495428413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 22
+        width: 7
+        height: 12
+      alignment: 9
+      pivot: {x: .945874333, y: .538399518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_top
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 28
+        width: 11
+        height: 6
+      alignment: 9
+      pivot: {x: .780688703, y: .173518181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

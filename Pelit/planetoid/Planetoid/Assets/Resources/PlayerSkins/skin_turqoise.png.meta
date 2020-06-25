@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: ad1efc308715c2a4fa69bbea64b8c01c
+timeCreated: 1449670715
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Body
+    21300004: antenna_top
+    21300006: antenna_bottom
+    21300008: backpack
+    21300010: RShoulder
+    21300012: RArm
+    21300014: LShoulder
+    21300016: LArm
+    21300018: RLeg
+    21300020: LLeg
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: .491839737, y: .385756403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_top
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 27
+        width: 2
+        height: 4
+      alignment: 9
+      pivot: {x: .899852753, y: .0573058128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_bottom
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 23
+        width: 1
+        height: 4
+      alignment: 9
+      pivot: {x: .214389801, y: .0715866089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: .785609245, y: .521420479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: .890331924, y: .695846021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .202967077, y: .885571659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .134420782, y: .528560638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: .757047653, y: .87700367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RLeg
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 1
+        height: 7
+      alignment: 9
+      pivot: {x: .5, y: .908012927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LLeg
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 11
+        width: 2
+        height: 7
+      alignment: 9
+      pivot: {x: .242951393, y: .94065392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

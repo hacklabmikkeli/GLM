@@ -1,0 +1,14 @@
+.DS_Store
+Library
+Temp
+Assets/GameAnalytics
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+Thumbs.db
+Thumbs.db.meta
+shaders.meta
+textures.meta
+

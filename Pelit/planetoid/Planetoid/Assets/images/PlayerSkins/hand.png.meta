@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 3fe7614715f88064c92c1d196c1512c0
+timeCreated: 1449666883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RShoulder_green
+    21300002: RArm_green
+    21300004: LShoulder
+    21300006: LArm_green
+    21300008: RShoulder_turqoise
+    21300010: RArm_turqoise
+    21300012: LArm_turqoise
+    21300014: LShoulder_turqoise
+    21300016: RShoulder_blue
+    21300018: Rarm_blue
+    21300020: LArm_blue
+    21300022: hand_0
+    21300024: RShoulder_purple
+    21300026: RArm_purple
+    21300028: LShoulder_purple
+    21300030: LArm_purple
+    21300032: RShoulder_red
+    21300034: RArm_red
+    21300036: LShoulder_red
+    21300038: LArm_red
+    21300040: RShoulder_yellow
+    21300042: RArm_yellow
+    21300044: LShoulder_yellow
+    21300046: LArm_yellow
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RShoulder_green
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: .916410029, y: .687384307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm_green
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .175200179, y: .937230229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .0752617866, y: .515614986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm_green
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: .765461445, y: .962215066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder_turqoise
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: .926820099, y: .705230415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm_turqoise
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .187692642, y: .937230229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm_turqoise
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: .765460968, y: .921614766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder_turqoise
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 9
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .0877540559, y: .499999285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder_blue
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: .905999839, y: .705230415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rarm_blue
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .187692255, y: .921614885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm_blue
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 9
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .0877536759, y: .499999523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hand_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: .749845982, y: .924738109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder_purple
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 6
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: .928307652, y: .705230415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm_purple
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .175200656, y: .937230229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder_purple
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 9
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: .0835895538, y: .499999523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm_purple
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: .599938214, y: .947640598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder_red
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 6
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: .895589173, y: .714153588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm_red
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .187692255, y: .968460917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder_red
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 9
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: .0877540559, y: .515614986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm_red
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: .749845505, y: .962215066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder_yellow
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 5
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: .892615199, y: .757653594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm_yellow
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: .146052048, y: .962215126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder_yellow
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 8
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: .0835901871, y: .587445855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm_yellow
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: .724861145, y: .947640598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

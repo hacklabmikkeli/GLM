@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: ae034726a824ebd40937ddf28854fc10
+timeCreated: 1450270411
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Body
+    21300004: RLeg
+    21300006: LLeg
+    21300008: backpack
+    21300010: antenna_bottom
+    21300012: antenna_top
+    21300014: RShoulder
+    21300016: RArm
+    21300018: LShoulder
+    21300020: LArm
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: .515179098, y: .31785056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 11
+      alignment: 9
+      pivot: {x: .483927995, y: .293011934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RLeg
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 2
+        height: 5
+      alignment: 9
+      pivot: {x: .454462051, y: .937158227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LLeg
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 13
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: .317850113, y: .946265817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: .887067795, y: .556921482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_bottom
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 21
+        width: 1
+        height: 4
+      alignment: 9
+      pivot: {x: .181238174, y: .0787792206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_top
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 25
+        width: 2
+        height: 4
+      alignment: 9
+      pivot: {x: .887067795, y: .044626236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RShoulder
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: .909836113, y: .750455379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RArm
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: .150880173, y: .928051114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShoulder
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 6
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: .0598058701, y: .691256523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LArm
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: .718579113, y: .962962925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

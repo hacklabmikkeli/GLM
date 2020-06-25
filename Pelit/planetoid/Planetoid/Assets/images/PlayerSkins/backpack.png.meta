@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 8f2d05f20d6de8041839f944f9db9876
+timeCreated: 1449666510
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: antenna_top
+    21300002: backpack_purple
+    21300004: backpack_green
+    21300006: backpack_red
+    21300008: backpack_white
+    21300010: antenna_bottom
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: antenna_top
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 2
+        height: 4
+      alignment: 9
+      pivot: {x: .922885656, y: .0457897186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack_purple
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: 1, y: .50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack_green
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: 1, y: .503915668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack_red
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backpack_white
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: 1, y: .50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna_bottom
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 9
+        width: 1
+        height: 4
+      alignment: 9
+      pivot: {x: .124101639, y: .0301272869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,112 @@
+using UnityEngine;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+
+
+/// <summary>
+/// detects a long press. The gesture is considered recognized when a touch has been down for minimumPressDuration and if it has moved less than allowableMovement
+/// </summary>
+public class TKLongPressRecognizer : TKAbstractGestureRecognizer
+{
+	public event Action<TKLongPressRecognizer> gestureRecognizedEvent;
+	public event Action<TKLongPressRecognizer> gestureCompleteEvent; // fired when after a successful long press the finger is lifted
+
+	public float minimumPressDuration = 0.5f;
+	public float allowableMovementCm = 1f;
+
+	private Vector2 _beginLocation;
+	private bool _waiting;
+
+	// Planetoid edit
+	// The current position of the touch
+	public Vector2 value;
+
+	public TKLongPressRecognizer(){}
+
+
+	public TKLongPressRecognizer( float minimumPressDuration, float allowableMovement )
+	{
+		this.minimumPressDuration = minimumPressDuration;
+		this.allowableMovementCm = allowableMovement;
+	}
+
+
+	private IEnumerator beginGesture()
+	{
+		var endTime = Time.time + minimumPressDuration;
+
+		// wait for our time to elapse or to be cancelled
+		while( _waiting && Time.time < endTime )
+			yield return null;
+
+		// if our time elapsed it means we were not cancelled
+		if( Time.time >= endTime )
+		{
+			if( state == TKGestureRecognizerState.Began )
+				state = TKGestureRecognizerState.RecognizedAndStillRecognizing;
+		}
+
+		_waiting = false;
+	}
+
+
+	internal override void fireRecognizedEvent()
+	{
+		if( gestureRecognizedEvent != null )
+			gestureRecognizedEvent( this );
+	}
+
+
+	internal override bool touchesBegan( List<TKTouch> touches )
+	{
+		if( !_waiting && state == TKGestureRecognizerState.Possible && touches.Count == 1)	// Planetoid edit: Allow only one touch
+		{
+			_beginLocation = touches[0].position;
+			_waiting = true;
+
+			TouchKit.instance.StartCoroutine( beginGesture() );
+			_trackingTouches.Add( touches[0] );
+			state = TKGestureRecognizerState.Began;
+		}
+
+		return false;
+	}
+
+
+	internal override void touchesMoved( List<TKTouch> touches )
+	{
+		if( state == TKGestureRecognizerState.Began || state == TKGestureRecognizerState.RecognizedAndStillRecognizing && touches.Count == 1)	// Planetoid edit: Allow only one touch
+		{
+			// did we move too far?
+			var moveDistance = Vector2.Distance(touches[0].position, _beginLocation) / TouchKit.instance.ScreenPixelsPerCm;
+			if (moveDistance > allowableMovementCm)
+			{
+				// fire the complete event if we had previously recognized a long press
+				if( state == TKGestureRecognizerState.RecognizedAndStillRecognizing && gestureCompleteEvent != null )
+					gestureCompleteEvent( this );
+
+				state = TKGestureRecognizerState.FailedOrEnded;
+				_waiting = false;
+			} else {
+				// Planetoid edit
+				// Continuous recognize firing for jetpack controls!
+				value = touchLocation();
+				state = TKGestureRecognizerState.RecognizedAndStillRecognizing;
+			}
+		}
+	}
+
+
+	internal override void touchesEnded( List<TKTouch> touches )
+	{
+		// fire the complete event if we had previously recognized a long press
+		if( state == TKGestureRecognizerState.RecognizedAndStillRecognizing && gestureCompleteEvent != null )
+			gestureCompleteEvent( this );
+
+		state = TKGestureRecognizerState.FailedOrEnded;
+		_waiting = false;
+	}
+
+}

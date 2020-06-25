@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - AudioManager
+  - ResultText
+  - Explosion
+  - Pause
+  - GameUI
+  - ControlManager
+  - LevelBoundaries
+  - Projectile
+  - SceneInfo
+  - Collectible
+  - MenuManager
+  - PlayerTouchArea
+  - CameraBoundaries
+  - TutorialManager
+  - Meteor
+  - Task
+  - TaskManager
+  - BlackHole
+  - PlayerGhost
+  - GravityArea
+  - TouchArea
+  - AnalyticsManager
+  - PointGiver
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - GhookLayer
+  - PlayerLayer
+  - PullableLayer
+  - PlayerTouchArea
+  - FarBackgroundLayer
+  - CloseBackgroundLayer
+  - GravityAreaLayer
+  - PlaneettaLayer
+  - BlackHoleCollider
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: planetGravityArea
+    uniqueID: 2930035237
+    locked: 0
+  - name: planet
+    uniqueID: 1152118495
+    locked: 0
+  - name: player
+    uniqueID: 1141082301
+    locked: 0
+  - name: Scrap
+    uniqueID: 2564021665
+    locked: 0
